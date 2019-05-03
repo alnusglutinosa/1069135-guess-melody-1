@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 const WelcomeScreen = (props) => {
-  // const {time: {time}, errorCount: {errorCount}} = props;
   const {time, errorCount} = props;
 
   return (
